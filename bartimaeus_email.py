@@ -1,7 +1,7 @@
 import smtplib
 from email.mime.text import MIMEText
 import yagmail
-import logging
+
 
 #Option 1 for sending email: works fine but quite verbose
 
@@ -29,16 +29,5 @@ def send_email(email_message,email_subject,recipient_email):
         return 1
     except Exception:
         return 0
-
-    # 
-# log_format = " %(name)s - %(asctime)s - %(levelname)s - %(message)s "
-# logging.basicConfig(filename='error_logs.txt',filemode='a',level=logging.CRITICAL,format=log_format, datefmt='%d-%b-%y %H:%M:%S')
-# logger = logging.getLogger()   
-
-
-# try:
-#     2/0
-# except Exception as e:
-#     logging.exception(e)
-
+ 
 
