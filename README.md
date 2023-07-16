@@ -9,7 +9,7 @@ A simple voice-activated email sender developed using Python. The application's 
 3. sys
 4. re
 5. threading
-6. sqlite3
+6. sqlite3 (optional)
 7. email (optional)
 8. smtplib (optional)
 
@@ -19,7 +19,7 @@ A simple voice-activated email sender developed using Python. The application's 
 3. customtkinter
 4. Pillow
 5. dateutil (run pip install python-dateutil or pip install pandas)
-6. pyodbc
+6. pyodbc (optional)
 7. yagmail (optional) (might also need to run pip install keyring)
 
 # Available files
