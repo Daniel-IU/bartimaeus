@@ -21,7 +21,7 @@ import yagmail
 # do not forget to do pip install yagmail, might also need to do pip install keyring
 
 def send_email(email_message,email_subject,recipient_email):
-    yag = yagmail.SMTP("duis4billion@gmail.com")
+    yag = yagmail.SMTP() #enter your email address and app password here like: yagmail.SMTP(my_email_address,app_password)
     try:
         yag.send(to=recipient_email,
                 subject=email_subject,
