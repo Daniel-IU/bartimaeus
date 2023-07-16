@@ -391,7 +391,7 @@ def run_rest_of_program(GUI,db,recipient_name):
     elif 'no' in answer.lower():
         is_successful = 0 
         
-        save_email_message(GUI,is_successful,recipient_email,recipient_name,email_subject,email_body)
+        save_email_message(GUI,db,is_successful,recipient_email,recipient_name,email_subject,email_body)
 
 
 #------------------------------------------------------------------------------------
