@@ -22,7 +22,7 @@ A simple voice-activated email sender developed using Python. The application's 
 6. pyodbc
 7. yagmail (optional) (might also need to run pip install keyring)
 
-# Directory stucture
+# Available files
 
 1. **bartimaeus_gui_main.py:**
       This is the application's entry point, run this file to start the program. It contains the application's gui code and some db initialising code. You can optionally uncomment the db initalization section to create a sqlite3 db and the required tables with test data inserted. The gui code uses a third party library called customtkinter, it offers better-looking gui elements/widgets than the normal tkinter. Do not forget to run pip install customtkinter
