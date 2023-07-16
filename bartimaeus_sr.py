@@ -83,8 +83,8 @@ def voice_statement_validation(GUI,content_type:str,func,*args):
                 if presumed_input:
                     if 'quit' == presumed_input.lower():
                             prompt = 'Confirmed, you said quit. The program will end now. Goodbye'
-                            GUI.console_entry.insert('0.0','The program has ended, you can now close this window or restart the program by clicking the Compose button')
                             speak(GUI,prompt)
+                            GUI.console_entry.insert('0.0','The program has ended, you can now close this window or restart the program by clicking the Compose button')
                             sys.exit()
                     else:
                         return func(GUI,presumed_input,message_yes,message_no)           
