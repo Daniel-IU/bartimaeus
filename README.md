@@ -28,7 +28,7 @@ A simple voice-activated email sender developed using Python. The application's 
       This is the application's entry point, run this file to start the program. It contains the application's gui code and some db initialising code. You can optionally uncomment the db initalization section to create a sqlite3 db and the required tables with test data inserted. The gui code uses a third party library called customtkinter, it offers better-looking gui elements/widgets than the normal tkinter. Do not forget to run pip install customtkinter
 
 2. **bartimaeus_sr.py:**
-       This is the speech recognision module, there's a whole lot going on here.
+       This is the speech recognition module, there's a whole lot going on here.
 
 3. **bartimaeus_email.py:**
        This is the email sending module. Choose between two functions provided: Option 1 uses the built-in smtplib and email libraries, it works fine but the syntax seems quite verbose. Option 2 uses a third-party library called yagmail, it works fine as well but has a more concise syntax. If you choose this option (recommended) do not forget to run pip install yagmail (you might also need to run pip install keyring). For both options, connect/login using your email address and an app password (generated for you by google) not your regular account password. Please run a google search to see how to create an app password.
