@@ -34,7 +34,7 @@ A simple voice-activated email sender developed using Python. The application's 
        This is the email sending module. Choose between two functions provided: Option 1 uses the built-in smtplib and email libraries, it works fine but the syntax seems quite verbose. Option 2 uses a third-party library called yagmail, it works fine as well but has a more concise syntax. If you choose this option (recommended) do not forget to run pip install yagmail (you might also need to run pip install keyring). For both options, connect/login using your email address and an app password (generated for you by google) not your regular account password. Please run a google search to see how to create an app password.
 
 4. **bartimaeus_db.py:**
-       This is the database module. Currently it works with the built-in sqlite3 package, if you want to connect to MS SQL Server, there are a number of this that should be changed in this file as both SQL dialects have different syntax. You can also work with the error messages you get to make the necessary modifications.
+       This is the database module. Currently it works with the built-in sqlite3 package, if you want to connect to MS SQL Server, there are a number of things that should be changed in this file as both SQL dialects have different syntax. You can also work with the error messages you get to make the necessary modifications.
 
 5. **gmail-logo.png:**
        This is an image file that is used in the gui
