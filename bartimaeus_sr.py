@@ -214,7 +214,7 @@ def start_program(GUI):
 
     time.sleep(2)
 
-    prompt = "Hello Steve, hope you are doing well. Remember, you can always say quit, anytime you want to end the program and the program will be terminated. I see you will like to send a message. Who would you like to message today?"
+    prompt = "Hello, hope you are doing well. Remember, you can always say quit, anytime you want to end the program and the program will be terminated. I see you will like to send a message. Who would you like to message today?"
     speak(GUI,prompt)
     recipient_name = voice_statement_validation(GUI,'name',statement_validation)
     GUI.name_entry.insert('0',recipient_name)
@@ -266,7 +266,7 @@ def start_program(GUI):
 
     time.sleep(1)
 
-    speak(GUI,"Thank you for using this voice-activated email sender, I hope it was not a hassle using the program. If you have any feedback about the program, please send your feedback to Dami, or Tamara, or Timothy, or Tuyo. Make sure you do not contact Oye. Oye no like wahala. See you next time Steve, do enjoy the rest of your day. Goodbye")
+    speak(GUI,"Thank you for using Bartimeus, I hope it was not a hassle using the program. If you have any feedback about the program, please send your feedback to Dami, or Tamara, or Timothy, or Tuyo. Make sure you do not contact Oye. Oye no like wahala. See you next time Steve, do enjoy the rest of your day. Goodbye")
     time.sleep(1)
     quit_clean_up(GUI)
     
