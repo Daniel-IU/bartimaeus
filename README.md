@@ -1,6 +1,8 @@
 # Bartimaeus
 A simple voice-activated email sender developed using Python. The application's name is inspired by a blind Bible character named Bartimaeus. I have fixed all the bugs I encountered, so if you still encounter some bugs, please let me know.
 
+![image](https://github.com/Daniel-IU/Bartimaeus/assets/79449858/d917d1bc-3aba-4421-9295-ebdb067f4649)
+
 # Package requirements
 ## Built-in packages (no need for pip install)
    
@@ -9,9 +11,10 @@ A simple voice-activated email sender developed using Python. The application's 
 3. sys
 4. re
 5. threading
-6. sqlite3 (optional)
-7. email (optional)
-8. smtplib (optional)
+6. winsound
+7. sqlite3 (optional)
+8. email (optional)
+9. smtplib (optional)
 
 ## 3rd party packages (Run pip install)
 1. pyttsx3
