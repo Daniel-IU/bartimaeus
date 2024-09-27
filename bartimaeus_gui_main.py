@@ -76,7 +76,7 @@ class Window():
         self.trash_button.grid(row = 6, column = 0, padx =20, pady =10)
         
         #side frame text
-        self.side_label = ck.CTkLabel(self.side_frame, text="Steve\'s \n voice-activated \n email sender",text_color='#fff',font=ck.CTkFont('stylus',30))
+        self.side_label = ck.CTkLabel(self.side_frame, text="Bartimeus \n a voice-activated \n email sender",text_color='#fff',font=ck.CTkFont('stylus',30))
         self.side_label.grid(row =7, sticky='s',pady=10)
 
 
@@ -141,7 +141,7 @@ class Window():
 
     def buttons_callback(self):
         self.console_entry.delete("0.0", "end")
-        output='Don\'t bother clicking me. Uyi didn\'t configure me to do anything useful. I\'m nothing but a useless botton. I feel so sad 😢 '
+        output='Don\'t bother clicking me. Uyi didn\'t configure me to do anything useful. I\'m nothing but a useless button. I feel so sad 😢 '
         self.console_entry.insert('0.0',output)   
 
     def thread_run(self, GUI):
